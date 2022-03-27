@@ -1,0 +1,38 @@
+{
+	"name": "aziktiktokbot",
+	"description": "A Telegram Bot that helps you to domany this with pdf.",
+	"keywords": [
+		"Telegram", "Telegram Bot", "pdf bot",
+		"ilovepdf", "nabilabavab", "python",
+		"ilovepdf_bot", "complete pdf bot"
+	],
+	"website": "https://github.com/botlarimuchunrepo/aziktiktokk",
+	"repository": "hhttps://github.com/botlarimuchunrepo/aziktiktokk",
+	"logo": "https://te.legra.ph/file/b659b2e306bb766a44537.jpg",
+	"success_url": "https://github.com/botlarimuchunrepo/aziktiktokk",
+	"stack": "heroku-20",
+	"env": {
+		"API_ID": {
+			"description": "API_ID from my.telegram.org",
+			"required": true
+		},
+		"API_HASH": {
+			"description": "API_ID from my.telegram.org",
+			"required": true
+		},
+		"API_TOKEN": {
+			"description": "API_TOKEN from @botfather",
+			"required": true
+		},
+		"OWNER_ID": {
+			"description": "No Use Yet.. :/",
+			"required": false
+		},
+		
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
